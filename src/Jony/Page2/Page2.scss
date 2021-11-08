@@ -1,0 +1,42 @@
+.background{
+    background: #311e25;
+    
+.background--h1{
+    color:#fff;
+    margin-top:5rem;
+    margin-left: 4rem;
+}
+.background p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #c9c9c9;
+    margin-left: 5rem ;
+}
+.background--Button{
+    color: #db9a64!important;
+    display: inline-block;
+    padding: 17px 49px;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #db9a64;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+}
+p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #c9c9c9;
+    margin-left:5rem;
+}
+.heads{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    display: flex;
+    margin-left: 5rem;
+}
+}

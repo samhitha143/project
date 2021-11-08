@@ -1,0 +1,20 @@
+.foodsite--Fourthrow {
+    margin: 5rem 0;
+    &--Heading {
+      text-align: left;
+      margin: 1rem 3rem;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 50px;
+      color: darkorange;
+    }
+    .foodsite--Fourthrow--juice--Items {
+      display: flex;
+    }
+    .juiceCards {
+      margin: 0 3rem;
+    }
+    .rating{
+      display: flex;
+      margin-top: 1rem;
+    }
+  }

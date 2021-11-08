@@ -1,0 +1,134 @@
+* {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+    .foodBody {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -11rem;
+    }
+    .foodBody h1{
+      color:whitesmoke;
+      font-size:5rem;
+      font-family: 'Times New Roman', Times, serif;
+     // margin-top: 2rem;
+    }
+    .foodBody h5{
+     // color:rgb(217, 255, 0);
+     color: rgb(235, 161, 137);
+      font-size:2.5rem;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .buttons a{
+      color:rgb(228, 20, 20);
+      font-size: 1.5rem;
+       text-decoration: none;
+      margin-left: 2.5rem
+    }
+    .search-form {
+      margin-top: 2rem;
+      margin-right: 20rem;
+      width:  25rem;
+      height: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(211, 230, 238);
+      border-radius: 0.5rem;
+      position: relative;
+      margin-left: 20rem;
+      margin-bottom: 2rem;
+    }
+    .alert {
+      position: absolute;
+      bottom: -1.5rem;
+      background-color: rgb(233, 72, 72);
+      width: calc(100% - 0.4rem);
+      border-radius: 0.5rem;
+      padding: 0.2rem;
+    }
+    .alert h3 {
+      font-size: 1rem;
+      color: #fff;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .search-form input {
+      font-size: 1rem;
+      border: none;
+      border-bottom: 0.1rem solid #ccc;
+      margin: 0 0.5rem;
+      border-radius: 0.5rem;
+      height: 2rem;
+    }
+    .search-form input[type="text"] {
+      padding: 0 0.5rem;
+      width: 60%;
+      color: #555;
+    }
+    .search-form input[type="submit"] {
+      width: 25%;
+      text-transform: uppercase;
+      background-color: purple;
+      color: #fff;
+    }
+    .recipes {
+      width: 100%;
+      //margin-top: 20rem;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .recipe {
+      width: 15rem; //30rem
+      margin: 3rem;
+      flex-direction: column;
+      background-color: #d3d3d3;
+      position: relative;
+      border-radius: 0.5rem;
+    }
+    .recipe h2 {
+      border-radius: 0.5rem;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: black;
+    }
+    .recipe img {
+      object-fit: cover;
+      height: 10rem; //20rem
+      width: 17rem; //30rem
+    }
+    .recipe .card--Content {
+      font-size: 0.8rem;
+    }
+    .recipe .icons {
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    .rating{
+      display: flex;
+      margin-top: 1rem;
+      margin-left: 1rem;
+    }
+    .appbar {
+      height: 5rem;
+      .appbar--Tools {
+        height: 100px;
+        width: 100%;
+      }
+      .appbar--Buttons {
+        font-size: 0.5rem !important;
+        display: flex;
+        margin-left: 5rem;
+      }
+    
+    }
+  }

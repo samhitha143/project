@@ -1,0 +1,33 @@
+.Firstrow {
+    background: hsl(338, 24%, 15%);
+    .Firstrow--Items {
+      display: flex;
+    }
+    .Cards {
+        margin: 0 3rem;
+        background: #311e25;
+        border: 1px solid #6b4b40;
+        padding: 45px 30px;
+        margin-bottom: 30px;
+      }
+      .title{
+          color:#db9a64;
+          margin-top: 22px;
+          margin-bottom: 11px;
+          font-weight: 400;
+      }
+      .description{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        color: #4d4d4d;
+        margin-bottom: 13px;
+        font-family: "Roboto",sans-serif;
+      }
+      .icons{
+          height: 60px;
+          width: 60px;
+          align-items: center !important;
+          margin-top: 2rem;
+      }
+  }
