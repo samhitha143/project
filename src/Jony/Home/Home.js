@@ -1,6 +1,7 @@
 import React from 'react'
 import {makeStyles} from  '@material-ui/core/styles';
 import './Home.scss';
+import  Button  from '@mui/material/Button';
 const Home = () => {
         const useStyles=makeStyles(() => ({
             root:{
@@ -14,11 +15,13 @@ const Home = () => {
     
     return (
       <div className={classes.root}>
-      <center>
-      <h1>Hi There, I Am Jony<br/>
-Creative Director Based<br/>
-On New York</h1>
-      </center>
+        <div className="body">
+     <div className="body--content">
+            <h1 className="body--text">Hi There, I Am Jony
+            <br/><span> Creative Director</span></h1>
+        <Button className="body--Button">View Works</Button>
+            </div>
+        </div>
         </div>
     )
 }

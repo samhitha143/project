@@ -4,7 +4,7 @@
     display: inline-block;
    
 .link{
-       margin-top: 1rem;
+        margin-top: 1rem;
         display:inline-block;
         list-style-type: none;
         margin-left: 2rem; 
@@ -24,4 +24,21 @@
         border: 1px solid #db9a64;
         color: #db9a64;        
     }
+.menuicon{
+    display: none;
+}
+@media screen and (max-width:780) {
+    .log{
+        display: flex;
+        position:absolute;
+        top:15px;
+        left:35px;
+
+    }
+    .links{
+        display: none;
+    }
+}
+
+
 }

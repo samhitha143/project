@@ -22,21 +22,21 @@ const Page2 = () => {
                  <Grid item xs={6}>
                       <div className="heads">
                       <h3>Wireframing</h3>
-                      <h4>90</h4>
+                      <h4 className="three">90</h4>
                     </div>
                     <div style={{padding:"1px",paddingRight:"2.5rem", backgroundColor:"white", borderRadius:"5px",marginRight:"30rem"}}>
                     <div style={{padding:"2px",paddingRight:"1.2rem", backgroundColor:"#db9a64"}}>
                     </div></div>
                     <div className="heads">
                       <h3>UI/UX</h3>
-                      <h4>70</h4>
+                      <h4 className="two">70</h4>
                     </div>
                     <div style={{padding:"1px",paddingRight:"5.5rem", backgroundColor:"white", borderRadius:"5px",marginRight:"30rem"}}>
                     <div style={{padding:"2px",paddingRight:"1.2rem", backgroundColor:"#db9a64"}}>
                     </div></div>
                     <div className="heads">
                       <h3>Interaction design</h3>
-                      <h4>45</h4>
+                      <h4 className="one">45</h4>
                     </div>
                     <div style={{padding:"1px",paddingRight:"5.5rem", backgroundColor:"white", borderRadius:"5px",marginRight:"30rem"}}>
                     <div style={{padding:"2px",paddingRight:"1.2rem", backgroundColor:"#db9a64"}}>

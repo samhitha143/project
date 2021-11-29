@@ -1,8 +1,9 @@
 import React from 'react'
 import "./Register.scss";
-const Register = () => {
-    return (
-        <div className="body">
+const Register = () => {    
+return (
+  
+       <div className="body">
         <div className="content">
             <h2>Register</h2>
         <form action="">
@@ -21,6 +22,7 @@ const Register = () => {
         </form> 
         </div>
         </div>
+       
     )
 }
 

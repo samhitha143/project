@@ -1,29 +1,20 @@
-import React from "react";
-
-import "./App.css";
-import Navbar from "./Food--app/Code/Components/Navbar/Navbar";
-import Chicken1 from "./Food--app/Code/Components/Chicken/Chicken1";
-import Mutton1 from "./Food--app/Code/Components/Mutton/Mutton1";
-import Vegetarian1 from "./Food--app/Code/Components/Vegetarian/Vegetarian1";
-import Jucies1 from "./Food--app/Code/Components/Juices/Jucies1";
-import Deserts1 from "./Food--app/Code/Components/Deserts/Deserts1";
-import Footer1 from "./Food--app/Code/Components/Footer/Footer1";
-import Nav from "./Food--app/Code/Components/Navbar/Nav";
-
-function App() {
-  return (
-    <div className="App">
-      <Nav/>
-      <Navbar />
-      <Chicken1 />
-      <Mutton1 />
-      <Vegetarian1 />
-      <Jucies1 />
-      <Deserts1 />
-      <Footer1 />
-      
-    </div>
-  );
+import React from 'react'
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import Home from './Quizcee/Home/Home';
+import Instructions from './Quizcee/Instructions/Instructions';
+import Quizpage from './Quizcee/Quizpage/Quizpage';
+//import Quizsummary from './Quizcee/Quizpage/Quizsummary';
+const App = () => {
+    return (
+       <Router>
+          
+            <Route path="/" exact component={Home}></Route>
+            <Route path="/play" exact component={Instructions}></Route>
+            <Route path="/play/start" exact component={Quizpage}></Route>
+            {/* <Route path="/play/summary" exact component={Quizsummary}></Route> */}
+           
+       </Router>
+    )
 }
 
-export default App;
+export default App

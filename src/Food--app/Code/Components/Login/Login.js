@@ -1,22 +1,10 @@
 import React from 'react'
 import './Login.scss'
-import {makeStyles} from  '@material-ui/core/styles';
-const Login = () => {
-        const useStyles=makeStyles(() => ({
-            root:{
-              minHeight:"100vh",
-              backgroundImage:`url(${process.env.PUBLIC_URL +'/images/f1.jpg'})`,
-              backgroundRepeat:"no-repeat",
-              backgroundSize:"cover",
-           
-            }
-          }));
-          const classes=useStyles();
-    
+const Login = () => {  
     return (
-      <div className={classes.root}>
+       
         <div className="body">
-   <div className="contact">
+       <div className="contact">
         <h2>LOGIN</h2>
         <form action="">
             <p>Email</p>
@@ -28,7 +16,7 @@ const Login = () => {
         </form>
      </div>
      </div>
-     </div>
+    
     
     )
 }

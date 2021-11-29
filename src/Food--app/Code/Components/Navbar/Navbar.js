@@ -7,7 +7,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import SearchIcon from '@mui/icons-material/Search';
 import  IconButton  from "@mui/material/IconButton";
 import Grid from '@mui/material/Grid';
-import Nav from './Nav'
+import Login from "../Login/Login";
+import Register from "../Register/Register"
+import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom';
 
 
 
@@ -50,19 +52,27 @@ const Navbar = () => {
   const classes=useStyles();
   return (
     <div>
-   
+    
     <div className={classes.root}>
     <div className="foodBody">
-     <Grid item xs={12} container className="buttons">
-          <Grid item xs={4}></Grid>
-          <Grid item xs={4}></Grid>
-          <Grid item xs={4}>
-          <a href="#">Order</a>
-            <a href="#">Delivery</a> 
-          
-           <a href="#" style={{marginLeft:"2rem"}}>SignUp</a>
-          </Grid>
+      <Grid xs={12} container>
+        <Grid item xs={4}></Grid>
+        <Grid item xs={4}></Grid>
+        <Grid item xs={4}>
+        <Router>
+        <div className="buttons">
+            <Link to="/login">Login</Link>
+            <Link to="/register">Register</Link>
+             <Switch>
+            <Route path="/login" exact component={Login}/>
+            <Route path="/register" exact component={Register}/>
+              </Switch>
+              <a href="#">Order</a>
+              <a href="#">Delivery</a>
+        </div>
+        </Router>
         </Grid>
+      </Grid>
       <h1>LOOP</h1>
       <h5>The taste you have too...</h5>
      

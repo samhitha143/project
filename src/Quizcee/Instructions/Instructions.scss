@@ -1,0 +1,45 @@
+.bgimg{
+    background-image: url('../assets/Images/question.jpg');
+    background-size: cover;
+    background-position:center ;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+}
+.styles{
+    background-color: rgba(23, 185, 190, 0.7);
+    width: 50%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 35rem;
+    height: 92vh;
+    margin-top: 1rem;
+    
+    h1{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .para{
+        margin-top:5rem;
+    }
+    .buttons{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .backbutton{
+      text-decoration: none;
+      color: #010c13;
+    }
+    .backbutton:hover{
+        color:darken(#010c13,10%)
+    }
+    .playbutton{
+        text-decoration: none;
+        color: #010c13;
+    }
+    .playbutton:hover{
+        color:darken(#010c13,10%)
+    }
+}

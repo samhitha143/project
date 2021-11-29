@@ -11,7 +11,6 @@ const Pages = () => {
             }
           }));
           const classes=useStyles();
-    
     return (
       <div className={classes.root}>
       <center>
