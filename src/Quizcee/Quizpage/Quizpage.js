@@ -288,7 +288,7 @@ handleDisableButton=()=>{
     }
 }
 endGame=()=>{
-    alert("Quiz is Ended,Redirecting to Home page");
+    alert("Quiz is Ended,Redirecting to ScorePage");
     const {state}=this;
     const playerscore={
         score:state.score,
@@ -301,7 +301,7 @@ endGame=()=>{
     }
     console.log(playerscore);
     setTimeout(() => {
-        this.props.history.push('/');
+        this.props.history.push('/play/summary',playerscore);
     }, 1000);
 }
     render() {
