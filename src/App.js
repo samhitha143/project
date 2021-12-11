@@ -1,20 +1,25 @@
 import React from 'react'
-import {BrowserRouter as Router,Route} from 'react-router-dom';
-import Home from './Quizcee/Home/Home';
-import Instructions from './Quizcee/Instructions/Instructions';
-import Quizpage from './Quizcee/Quizpage/Quizpage';
-import Quizsummary from './Quizcee/Quizpage/Quizsummary/Quizsummary';
+import Service from './Jony/Services/Service'
+//import Navbar from './Jony/Navbar/Navbar';
+import Body from './Jony/Body/Body';
+import Page2 from './Jony/Page2/Page2';
+import Myworks from './Jony/Myworks/Myworks';
+import Footer from './Jony/Footer/Footer'
+import Navs from './Jony/Navs/Navs';
 const App = () => {
-    return (
-       <Router>
-          
-            <Route path="/" exact component={Home}></Route>
-            <Route path="/play" exact component={Instructions}></Route>
-            <Route path="/play/start" exact component={Quizpage}></Route>
-            <Route path="/play/summary" exact component={Quizsummary}></Route>
-           
-       </Router>
-    )
+ 
+  return (
+
+    <div>
+     <Navs/>
+     <Body/>
+     <Page2/>
+     <Service/>
+     <Myworks/>
+     <Footer/>
+    
+    </div>
+  )
 }
 
 export default App

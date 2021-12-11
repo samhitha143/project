@@ -20,7 +20,8 @@ const Footer = () => {
     return (
         <div className={classes.root}>
             <div className="footer">
-            <h2>Do you have any Project? <span>Let’s Talk</span></h2>
+              <br/><br/><br/><br/>
+            <h2 >Do you have any Project? <span>Let’s Talk</span></h2>
              <p className="footer--p">
              Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum<br/>
               egestas Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus.
